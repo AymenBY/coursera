@@ -1,0 +1,86 @@
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 32px;
+	height: 90px;
+}
+.navbar-brand span {
+	font-family: 'hevetica';
+	font-size: 2.2em;
+	color: #557c3e;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+#nav-list a {
+	color: #951c49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: #E7E7E7;
+}
+#nav-list a span {
+	font-family: 'hevetica';
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.category-title {
+	background-color: #951c49;
+}
+.category-title h3 {
+	padding-top: 15px;
+	color: #e1e1e1;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.category-title p {
+	padding: 10px 20px 10px;
+	color: #e1e1e1;
+	font-size: 1.1em;
+}
+#menu-categories-title {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #563D7C;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+.category-title a {
+	color: #FFE484;
+	font-weight: bold;
+}
+.category-title a:hover {
+	text-decoration: underline;
+}
+
+			/*small devices tablets*/
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar-brand {
+		height: 80px;
+		padding-top: 25px;
+	}
+	.navbar-brand span {
+		font-size: 2em;
+	}
+}
+
+			/*extra small devices smartphones*/
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 15px;
+		height: 50px;
+	}
+	.navbar-brand span {
+		font-size: 1.7em;
+	}
+}
